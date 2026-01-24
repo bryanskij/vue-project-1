@@ -1,13 +1,9 @@
 <script setup>
-const today = new Date().toLocaleDateString()
+import Button from "./components/Button.vue";
 </script>
 
 <template>
-  <div>
-    <p>Текущая дата: {{ today }}</p>
-  </div>
+  <Button>Начать игру</Button>
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
